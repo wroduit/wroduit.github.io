@@ -41,3 +41,5 @@ Get-AppxPackage *people* | Remove-AppxPackage
 Get-AppxPackage *windowscommunicationsapps* | Remove-AppxPackage
 Get-AppxPackage *microsoft.yourphone* | Remove-AppxPackage
 ```
+
+Ok!
