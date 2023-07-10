@@ -14,10 +14,10 @@ Executar no powershell como administrador.
 
 Sintaxe do comando:
 
-> Get-AppxPackage *nomedoapp* | Remove-AppxPackage
-{: .prompt-tip }
 
+```powershell
 Get-AppxPackage *nomedoapp* | Remove-AppxPackage
+```
 Desinstalar todos os apps, exceto a loja:
 
 ```powershell
