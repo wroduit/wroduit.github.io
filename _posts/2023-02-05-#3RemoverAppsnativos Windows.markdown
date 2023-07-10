@@ -12,7 +12,11 @@ image:
 ---
 Executar no powershell como administrador.
 
-intaxe do comando:
+Sintaxe do comando:
+
+> Get-AppxPackage *nomedoapp* | Remove-AppxPackage
+{: .prompt-tip }
+
 Get-AppxPackage *nomedoapp* | Remove-AppxPackage
 Desinstalar todos os apps, exceto a loja:
 
@@ -37,5 +41,3 @@ Get-AppxPackage *people* | Remove-AppxPackage
 Get-AppxPackage *windowscommunicationsapps* | Remove-AppxPackage
 Get-AppxPackage *microsoft.yourphone* | Remove-AppxPackage
 ```
-
-OK?
