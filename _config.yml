@@ -26,7 +26,7 @@ description: >- # used by seo meta and the atom feed
   wroduit.com | Um bloco de notas pessoal.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: "https://wroduit.github.io"
+url: "https://wroduit.com"
 
 github:
   username: wroduit # change to your github username
