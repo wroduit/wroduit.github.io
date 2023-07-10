@@ -3,8 +3,12 @@
 - type: github
   icon: "fab fa-github"
 
-- type: twitter
-  icon: "fab fa-twitter"
+- type: telegram
+  icon: "fab fa-telegram-plane"
+  url: "https://t.me/wroduit"  
+
+# - type: twitter
+#  icon: "fab fa-twitter"
 
 - type: email
   icon: "fas fa-envelope"
