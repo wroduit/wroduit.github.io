@@ -2,12 +2,14 @@
 layout: post
 title:  "Links VMware"
 date:   2023-05-06 12:00:00 -0300
-categories: VMware Imagens
-#pin: true
-tags: vm virtualização
+categories: [VMware, Imagens]
+pin: true
+tags: [vm, virtualização]
 ---
 
 # vSphere Clients
+
+Links do VMware
 
 [Repositório Oficial](https://www.mirror.mahanserver.net/VMware/ESXI/)
 
