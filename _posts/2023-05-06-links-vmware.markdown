@@ -3,7 +3,6 @@ layout: post
 title:  "Links VMware"
 date:   2023-05-06 12:00:00 -0300
 categories: [VMware, Imagens]
-pin: true
 tags: [vm, virtualização]
 ---
 

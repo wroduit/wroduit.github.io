@@ -2,9 +2,8 @@
 layout: post
 title:  "Remover Netdata por completo com script"
 date:   2023-06-11 14:18:00 -0300
-categories: Linux VMs
-#pin: true
-tags: vm linux terminal monitoramento
+categories: [Linux, VMs]
+tags: [vm, linux, terminal, monitoramento]
 ---
 
 Há algumas semanas, após uma atualização, percebi um erro no repositório do Netadata quando atualizava o SO. Tentei arrumar e não consegui e então parti para remoção, conforme a [documentação oficial](https://learn.netdata.cloud/docs/maintaining/uninstall-netdata-agents) da ferramenta. O Netdata foi desinstalado, mas não limpou os repositórios; precisei limpar manualmente. Como havia mais casos iguais para solucionar, pesquisei alguma forma alternativa de corrigir o problema. Encontrei a seguinte postagem no fórum oficial:

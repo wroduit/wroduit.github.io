@@ -2,9 +2,8 @@
 layout: post
 title:  "Instalar VMware Tools em distros Debian like"
 date:   2023-07-08 12:26:00 -0300
-categories: Linux VMs
-#pin: true
-tags: vm linux terminal
+categories: [Linux, VMs]
+tags: [vm, linux, terminal]
 
 ---
 
