@@ -25,9 +25,9 @@ git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
 echo 'export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"' >> ~/.bashrc
 source .bashrc
 
-rbenv install 2.3.1         #instala a versão 2.3.1 
-rbenv global 2.3.1          #define a versão como "titular"
-ruby -v                     #verifica a versão
+rbenv install 2.3.1         # instala a versão 2.3.1 
+rbenv global 2.3.1          # define a versão como "titular"
+ruby -v                     # verifica a versão
 ```
 
 > No exemplo acima está sendo instalada a **versão 2.3.1**. Altere para a versão desejada.
