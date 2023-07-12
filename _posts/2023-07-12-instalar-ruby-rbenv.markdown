@@ -5,6 +5,9 @@ date:   2023-07-12 13:05:00 -0300
 categories: Programação Ruby
 #pin: true
 tags: linux environment config
+#image:
+#  path: /assets/img/ruby.png
+#  lqip: data:image/webp;base64,UklGRpoAAABXRUJQVlA4WAoAAAAQAAAADwAABwAAQUxQSDIAAAARL0AmbZurmr57yyIiqE8oiG0bejIYEQTgqiDA9vqnsUSI6H+oAERp2HZ65qP/VIAWAFZQOCBCAAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
 ---
 
 De acordo com a [documentação oficial](https://www.ruby-lang.org/pt/documentation/installation/#rbenv), o **rbenv** permite que você gerencie múltiplas instalações do Ruby. Ele não suporta a instalação do Ruby, mas existe um plugin popular chamado *ruby-build* para isso. Ambas estas ferramentas estão disponíveis para macOS, Linux ou outros sistemas operacionais do tipo UNIX.
