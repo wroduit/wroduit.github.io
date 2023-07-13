@@ -43,6 +43,3 @@ __ISOs versão 6.0.0 até 8.0__
 | vSphere Client 6.0 Update 2a | VMware-viclient-all-6.0.0-4437566.exe | [Download](https://vsphereclient.vmware.com/vsphereclient/4/4/3/7/5/6/6/VMware-viclient-all-6.0.0-4437566.exe) |
 | VMware vSphere Client 6.0 Update 3 | VMware-viclient-all-6.0.0-5112508.exe | [Download](https://vsphereclient.vmware.com/vsphereclient/5/1/1/2/5/0/8/VMware-viclient-all-6.0.0-5112508.exe) |
 
-
-
-
