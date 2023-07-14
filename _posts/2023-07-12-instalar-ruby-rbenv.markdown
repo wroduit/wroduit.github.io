@@ -6,9 +6,9 @@ categories: [Dev, Ruby]
 tags: [linux, environment, config]
 ---
 
-De acordo com a [documentação oficial](https://www.ruby-lang.org/pt/documentation/installation/#rbenv), o **rbenv** permite que você gerencie múltiplas instalações do Ruby. Ele não suporta a instalação do Ruby, mas existe um plugin popular chamado *ruby-build* para isso. Ambas estas ferramentas estão disponíveis para macOS, Linux ou outros sistemas operacionais do tipo UNIX.
+De acordo com a [documentação oficial](https://www.ruby-lang.org/pt/documentation/installation/#rbenv), o **`rbenv`** permite gerenciar versões instaladas do Ruby. Ele não suporta a instalação do Ruby, mas existe um plugin popular chamado *`ruby-build`* para isso. Ambas ferramentas estão disponíveis para macOS, Linux ou outros sistemas operacionais do tipo UNIX.
 
-Seguindo os passos abaixo instalaremos o *rbenv* juntamente com o *ruby-build* em uma distribuição Debian like.
+Seguindo os passos abaixo instalaremos o *`rbenv`* juntamente com o *`ruby-build`* em uma distribuição Debian like.
 
 
 ```shell
