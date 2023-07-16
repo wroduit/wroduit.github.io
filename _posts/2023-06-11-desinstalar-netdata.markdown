@@ -2,7 +2,7 @@
 layout: post
 title:  "Remover Netdata por completo com script"
 date:   2023-06-11 14:18:00 -0300
-categories: [Linux, VMs]
+categories: [SO, Linux]
 tags: [vm, linux, terminal, monitoramento]
 ---
 
