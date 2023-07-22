@@ -6,6 +6,13 @@ categories: [Docs, Artigos]
 tags: [linux, voip, config, tcc]
 ---
 
+Em 2011 ingressei em um curso técnico de informática no *campus* do Instituto Federal da minha cidade. Foi o início da jornada profissional no TI. Posto aqui meu artigo de conclusão de curso.
+
+> O conteúdo está na íntegra. Tentei moldar conforme as normas ABNT exigidas na época, mas o `markdown` tem algumas limitações que impedem a formatação.
+{: .prompt-info }
+
+___
+
 # <center>CENTRAL TELEFÔNICA VOIP</center>
 
 William Roduit [^1]  
@@ -34,7 +41,7 @@ ___
 ## INTRODUÇÃO
 
 <div style="text-align: justify">
-&emsp;&emsp;Nos dias atuais, a comunicação se tornou o principal meio de integração entre as pessoas em diversas atividades, tanto profissionais como pessoais. Através dela, é possível a troca mútua de experiências, fazendo da voz a principal e mais importante ferramenta utilizada no desenvolvimento da comunicação global, pois expressa os sentimentos e o estado de espírito de quem fala. As novas tecnologias proporcionaram uma maior integração entre as nações, uma vez que, através dos meios de comunicação, sofisticaram a forma como que as pessoas se correspondiam..</div>  
+&emsp;&emsp;Nos dias atuais, a comunicação se tornou o principal meio de integração entre as pessoas em diversas atividades, tanto profissionais como pessoais. Através dela, é possível a troca mútua de experiências, fazendo da voz a principal e mais importante ferramenta utilizada no desenvolvimento da comunicação global, pois expressa os sentimentos e o estado de espírito de quem fala. As novas tecnologias proporcionaram uma maior integração entre as nações, uma vez que, através dos meios de comunicação, sofisticaram a forma como que as pessoas se correspondiam.</div>  
 <div style="text-align: justify">
 &emsp;&emsp;O início desse processo teve a participação ativa da telefonia, porque, através desta, revolucionou-se a forma como a informação era processada e o meio em que a mesma era transmitida, mostrando assim, através da evolução, a importância da comunicação em um meio social.</div>
 <div style="text-align: justify">
@@ -156,9 +163,9 @@ Notando que o mercado carecia do hardware necessário para aplicar o sistema efe
 <div style="text-align: center">Tabela 1 - Resumo dos protocolos SIP e IAX2. (KELLER, 2011, p. 27)</div>
 
 <div style="text-align: justify">
-&emsp;&emsp;A figura a seguir ilustra um cenário que utiliza o protocolo IAX2 em um tronco1 que interliga dois servidores Asterisk, além de ilustrar o protocolo SIP utilizado nos ramais internos.</div>  
+&emsp;&emsp;A figura a seguir ilustra um cenário que utiliza o protocolo IAX2 em um tronco[^3] que interliga dois servidores Asterisk, além de ilustrar o protocolo SIP utilizado nos ramais internos.</div>  
 ![Figura 1](/assets/img/asterisx.jpg)
-_Exemplo de utilização dos protocolos IAX2 e SIP._
+_Figura 1 – Exemplo de utilização dos protocolos IAX2 e SIP._
 
 ## 2 METODOLOGIA
 
@@ -170,7 +177,7 @@ _Exemplo de utilização dos protocolos IAX2 e SIP._
 * aparelhos telefônicos analógicos e softphones equipados com headsets.  
 
 ![Figura 2](/assets/img/placa-voip.jpg)
-_Figurq 2 - Placa VoIP TDM400P+._  
+_Figura 2 - Placa VoIP TDM400P+._  
 <div style="text-align: justify">
 &emsp;&emsp;O servidor necessita de um hardware com capacidade suficiente para executar o sistema operacional adequado, sendo este compatível com o software Asterisk. A máquina utilizada possui um processador com mais de 2GHz de frequência, 8GB de memória e um disco rígido de 500GB de capacidade de armazenamento. A placa VoIP utilizada foi a TDM400P+, fabricada pela Digium Inc., que contém duas interfaces FXS e duas FXO. Alguns telefones analógicos, além de um ATA, também foram disponibilizados para uso no desenvolvimento do trabalho.</div>  
 
@@ -252,52 +259,29 @@ _Figura 11 - Comparativo entre tarifas da Operadora PlugFone (VoIP) com as demai
 
 ## REFERÊNCIAS
 
-- AMARAL, Italo. VoIP vs Telefonia IP. Disponível em: <http://blog.ccna.com.br/2008/05/14/voip-vs-telefonia-ip/> Acesso em: MARÇO DE 2013.
-- ASTERISK GURU. How to install and configure Wildcard TDM400p. Disponível em: <http://www.asteriskguru.com/tutorials/wildcard_tdm400p.html> Acesso em: MARÇO DE 2013.
-- ASTERISK PORTUGAL. O que é o Asterisk? Disponível em:<http://www.asterisk.pt/o-que-e-o-asterisk.html> Acesso em: MAIO DE 2013.
-- ASTERISK STUFF. Disponível em:
-  <https://sites.google.com/site/allancassaro/asterisk> Acesso em: JULHO DE 2013.
-- COLCHER, S. VoIP: Voz sobre IP. 3 Ed. Rio de Janeiro: Elsevier, 2005.
-  C\* ORREIA, Bruno R. Leite. Elastix – Instalando, criando ramais e SIP Trunk Vono.
-  Disponível em: <http://www.vivaolinux.com.br/artigo/Elastix-Instalando-criando-
-  ramais-e-SIP-Trunk-Vono> Acesso em: MARÇO DE 2013.
-- DAVIDSON, J., PETERS, J., BHATIA, M., KALIDINDI, S., MUKHERJEE, S.
-  Fundamentos de VoIP. 2 Ed. Porto Alegre: Bookman. 2007.
-- DEVEL SISTEMAS. Codecs vc Consumo de Banda. Disponível em:
-  <http://www.develsistemas.com.br/pt/component/content/article/44-noticias/120-
-  codecs-vs-consumo-de-banda.html> Acesso em: ABRIL DE 2013.
-- GONÇALVES, F. Asterisk PBX, Guia de configuração. 2005.
-  I\* NPHONEX. Manuais de Configuração de Equipamentos. Disponível em:
-  <http://www.inphonex.com.br/suporte/configuracao-gateway-trixbox.php> Acesso
-  em: MARÇO DE 2013.
-- KELLER, A. Asterisk na Prática. 2 Ed. São Paulo: Novatec Editora. 2011.
-- MALAR, Klaber. Introdução ao Asterisk – O que é, como funciona e como instalar.
-  Disponível em: < http://www.profissionaisti.com.br/2010/10/introducao-ao-asterisk-o-
-  que-e-como-funciona-e-como-instalar/> Acesso em: JUNHO de 2013.
-  P\* BX IN A FLASH: THE LEAN, MEAN ASTERISK® MACHINE. Copyright © Ward
-  Mundy & Associates LLC. Disponível em: <http://pbxinaflash.net/>. Acesso em:
-  MAIO DE 2013.
-- PLUGFONE. Tarifas. Disponível em: < http://www.plugfone.com.br/tarifas.php>
-  Acesso em: JULHO DE 2013.
-- RONCAGLIA, Adriano. História de Mark Spencer e o Open Source Asterisk.
-  Disponível em: < http://mestreasterisk.com.br/artigos-mestre-asterisk/historia-de-
-  mark-spencer-e-o-open-source-asterisk/> Acesso em: JUNHODE 2013.
-- SATO, Alberto. Trixbox – Um PABX IP gratuito em apenas 20 minutos. Disponível
-  em: <http://imasters.com.br/artigo/10264/tecnologia/trixbox-um-pabx-ip-gratuito-em-
-  apenas-20-minutos/> Acesso em: JUNHO DE 2013.
-- SILICONTECH.Disponível em:
-  <http://www.silicontech.com.br/v2/product_info.php?cPath=43&products_id=140&os
-  Csid=hb2629o2fhtsrhpqb47qonhkv0> Acesso em: JULHO DE 2013.
-- SOARES, L. F. G., LEMOS G. e COLCHER, S. Redes de Computadores: das LANs,
-- MANs e WANs às Redes ATM, 2 Ed. Rio de Janeiro: Campus, 1995.
-- TANEMBAUM, A. Redes de Computadores. 4 Ed. Rio de Janeiro: Campus, 2003.
-- VOIP-INFO. Asterisk Codecs. Disponível em: < http://www.voip-
-  info.org/wiki/view/Asterisk+codecs> Acesso em: ABRIL DE 2013.
-- VOIPON.Digium Wildcard TDM400P. Disponível em:
-  <http://www.keison.co.uk/digium/digium_wildcard_tdm_400p.htm> Acesso em:
-  JULHO DE 2013.
+* AMARAL, Italo. VoIP vs Telefonia IP. Disponível em: <http://blog.ccna.com.br/2008/05/14/voip-vs-telefonia-ip/>.   Acesso em: MARÇO DE 2013.  
+* ASTERISK GURU. How to install and configure Wildcard TDM400p. Disponível em: <http://www.asteriskguru.com/tutorials/wildcard_tdm400p.html>.   Acesso em: MARÇO DE 2013.  
+* ASTERISK PORTUGAL. O que é o Asterisk? Disponível em: <http://www.asterisk.pt/o-que-e-o-asterisk.html>.   Acesso em: MAIO DE 2013.  
+* ASTERISK STUFF. Disponível em: <https://sites.google.com/site/allancassaro/asterisk>.   Acesso em: JULHO DE 2013.  
+* COLCHER, S. VoIP: Voz sobre IP. 3 Ed. Rio de Janeiro: Elsevier, 2005.  
+* CORREIA, Bruno R. Leite. Elastix – Instalando, criando ramais e SIP Trunk Vono. Disponível em: <http://www.vivaolinux.com.br/artigo/Elastix-Instalando-criando-ramais-e-SIP-Trunk-Vono>.   Acesso em: MARÇO DE 2013.  
+* DAVIDSON, J., PETERS, J., BHATIA, M., KALIDINDI, S., MUKHERJEE, S. Fundamentos de VoIP. 2 Ed. Porto Alegre: Bookman. 2007.  
+* DEVEL SISTEMAS. Codecs vc Consumo de Banda. Disponível em: <http://www.develsistemas.com.br/pt/component/content/article/44-noticias/120-codecs-vs-consumo-de-banda.html>.   Acesso em: ABRIL DE 2013.  
+* GONÇALVES, F. Asterisk PBX, Guia de configuração. 2005.  
+* INPHONEX. Manuais de Configuração de Equipamentos. Disponível em: <http://www.inphonex.com.br/suporte/configuracao-gateway-trixbox.php>.   Acesso em: MARÇO DE 2013.  
+* KELLER, A. Asterisk na Prática. 2 Ed. São Paulo: Novatec Editora. 2011.  
+* MALAR, Klaber. Introdução ao Asterisk – O que é, como funciona e como instalar. Disponível em: < http://www.profissionaisti.com.br/2010/10/introducao-ao-asterisk-o-que-e-como-funciona-e-como-instalar/>.   Acesso em: JUNHO de 2013.  
+* PBX IN A FLASH: THE LEAN, MEAN ASTERISK® MACHINE. Copyright © Ward Mundy & Associates LLC. Disponível em: <http://pbxinaflash.net/>.   Acesso em: MAIO DE 2013.  
+* PLUGFONE. Tarifas. Disponível em: < http://www.plugfone.com.br/tarifas.php>.   Acesso em: JULHO DE 2013.  
+* RONCAGLIA, Adriano. História de Mark Spencer e o Open Source Asterisk. Disponível em: < http://mestreasterisk.com.br/artigos-mestre-asterisk/historia-de-mark-spencer-e-o-open-source-asterisk/>.   Acesso em: JUNHODE 2013.  
+* SATO, Alberto. Trixbox – Um PABX IP gratuito em apenas 20 minutos. Disponível em: <http://imasters.com.br/artigo/10264/tecnologia/trixbox-um-pabx-ip-gratuito-em-apenas-20-minutos/>.   Acesso em: JUNHO DE 2013.  
+* SILICONTECH.Disponível em: <http://www.silicontech.com.br/v2/product_info.php?cPath=43&products_id=140&osCsid=hb2629o2fhtsrhpqb47qonhkv0>.   Acesso em: JULHO DE 2013.  
+* SOARES, L. F. G., LEMOS G. e COLCHER, S. Redes de Computadores: das LANs, MANs e WANs às Redes ATM, 2 Ed. Rio de Janeiro: Campus, 1995.  
+* TANEMBAUM, A. Redes de Computadores. 4 Ed. Rio de Janeiro: Campus, 2003.  
+* VOIP-INFO. Asterisk Codecs. Disponível em: < http://www.voip-info.org/wiki/view/Asterisk+codecs>.   Acesso em: ABRIL DE 2013.  
+* VOIPON.Digium Wildcard TDM400P. Disponível em: <http://www.keison.co.uk/digium/digium_wildcard_tdm_400p.htm>.   Acesso em: JULHO DE 2013. 
 
----
+___
 
 [^1]: Estudante do Curso Técnico em Manutenção e Suporte em Informática do Instituo Federal de Educação, Ciência e Tecnologia Sul-rio-grandense, Campus Camaquã. E-mail: contato@dowilliam.com.
-[^2]: Professor Orientador do Instituto Federal de Educação, Ciência e Tecnologia Sul-rio-grandense, campus Camaquã. Mestre em Engenharia Elétrica pela Pontifícia Universidade Católica do Rio Grande do Sul PUCRS, 2005 e Bacharel em Ciências da Computação pela Universidade Católica de Pelotas UCPEL, 2002. E-mail: kwecko@camaqua.ifsul.edu.br.
+[^2]: Professor Orientador do Instituto Federal de Educação, Ciência e Tecnologia Sul-rio-grandense, campus Camaquã. Mestre em Engenharia Elétrica pela Pontifícia Universidade Católica do Rio Grande do Sul PUCRS, 2005 e Bacharel em Ciências da Computação pela Universidade Católica de Pelotas UCPEL, 2002. E-mail: k****o@ifsul.edu.br.
