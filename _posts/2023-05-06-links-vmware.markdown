@@ -16,7 +16,7 @@ __ISOs versão 6.0.0 até 8.0__
 
 | Imagem  | Instalador | Link  |
 | ------------- | ------------- |-------------- |
-| VMware vSphere Client v4.1 Update 1 | VMware-viclient-all-4.1.0-345043.exe | [Download](https://vsphereclient.vmware.com/vsphereclient/4/9/1/5/5/7/VMware-viclient-all-4.1.0-491557.exe) |
+| VMware vSphere Client v4.1 Update 1 | VMware-viclient-all-4.1.0-345043.exe | [Download](https://vsphereclient.vmware.com/vsphereclient/4/9/1/5/5/7/VMware-viclient-all-4.1.0-345043.exe) |
 | VMware vSphere Client v4.1 Update 2 | VMware-viclient-all-4.1.0-491557.exe | [Download](https://vsphereclient.vmware.com/vsphereclient/4/9/1/5/5/7/VMware-viclient-all-4.1.0-491557.exe) |
 | VMware vSphere Client v4.1 Update 3 | VMware-viclient-all-4.1.0-799345.exe | [Download](https://vsphereclient.vmware.com/vsphereclient/7/9/9/3/4/5/VMware-viclient-all-4.1.0-799345.exe) |
 | VMware vSphere Client v5.0 | VMware-viclient-all-5.0.0-455964.exe | [Download](https://vsphereclient.vmware.com/vsphereclient/4/5/5/9/6/4/VMware-viclient-all-5.0.0-455964.exe) |
