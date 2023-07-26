@@ -3,7 +3,7 @@ layout: post
 title:  "Crimpagem de cabos de rede"
 date:   2023-07-17 19:50:00 -0300
 categories: [Redes, Infraestrutura]
-tags: [osi, camada fisica]
+tags: [osi, camada fisica,ctrl+c+v]
 
 ---
 
