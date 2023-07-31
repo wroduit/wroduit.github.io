@@ -94,10 +94,10 @@ comments:
   giscus:
     repo: wroduit/wroduit.github.io
     repo_id: R_kgDOJ5pRTw
-    category: Comments
-    category_id: DIC_kwDOJ5pRT84CYQrW
+    category: "Comments"
+    category_id: "DIC_kwDOJ5pRT84CYQrW"
     mapping: url # optional, default to 'pathname'
-    input_position: # optional, default to 'bottom'
+    input_position: top # optional, default to 'bottom'
     lang: # optional, default to the value of `site.lang`
     reactions_enabled: # optional, default to the value of `1`
 
