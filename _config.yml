@@ -20,7 +20,7 @@ timezone: America/Sao_Paulo
 
 title: wroduit.com # the main title
 
-tagline: wLab - Um bloco de notas pessoal # it will display as the sub-title
+tagline: Um bloco de notas pessoal # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   wroduit.com | Um bloco de notas pessoal.
