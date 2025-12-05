@@ -7,7 +7,7 @@ tags: [teste]
 
 ---
 Teste de integração HTML.
-Previsão do tempo da cidade Camaquã. Disponibilizado pelo site <http://www.tempo.com>.
+Previsão do tempo da cidade Camaquã. Disponibilizado pelo site <https://www.tempo.com>.
 <div id="cont_3aef6cf93b28ce84c92b9931af0aeed5"><script type="text/javascript" async src="https://www.tempo.com/wid_loader/3aef6cf93b28ce84c92b9931af0aeed5"></script></div>
 
 
