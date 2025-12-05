@@ -259,7 +259,7 @@ _Figura 11 - Comparativo entre tarifas da Operadora PlugFone (VoIP) com as demai
 
 ## REFERÊNCIAS
 
-* AMARAL, Italo. VoIP vs Telefonia IP. Disponível em: <http://blog.ccna.com.br/2008/05/14/voip-vs-telefonia-ip/>.   Acesso em: MARÇO DE 2013.  
+* AMARAL, Italo. VoIP vs Telefonia IP. Disponível em: <https://blog.ccna.com.br/2008/05/14/voip-vs-telefonia-ip/>.   Acesso em: MARÇO DE 2013.  
 * ASTERISK GURU. How to install and configure Wildcard TDM400p. Disponível em: <http://www.asteriskguru.com/tutorials/wildcard_tdm400p.html>.   Acesso em: MARÇO DE 2013.  
 * ASTERISK PORTUGAL. O que é o Asterisk? Disponível em: <http://www.asterisk.pt/o-que-e-o-asterisk.html>.   Acesso em: MAIO DE 2013.  
 * ASTERISK STUFF. Disponível em: <https://sites.google.com/site/allancassaro/asterisk>.   Acesso em: JULHO DE 2013.  
