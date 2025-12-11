@@ -28,6 +28,9 @@ url: "https://site.dowilliam.com"
 github:
   username: wroduit # change to your GitHub username
 
+telegram:
+  username: wroduit # change to your Telegram username  
+
 twitter:
   username: twitter_username # change to your Twitter username
 
@@ -43,6 +46,7 @@ social:
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     - https://www.linkedin.com/in/wroduit
+    # - https://t.me/wroduit
 
 # Site Verification Settings
 webmaster_verifications:

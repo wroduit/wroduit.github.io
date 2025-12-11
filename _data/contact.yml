@@ -1,13 +1,11 @@
 #  The contact options.
 
-#- type: github
-#  icon: "fab fa-github"
-
-#- type: twitter
-#  icon: "fa-brands fa-x-twitter"
+- type: github
+  icon: "fab fa-github"
 
 - type: telegram
-  icon: "fa-brands fa-telegram"
+  icon: "fab fa-telegram-plane"
+  url: "https://t.me/wroduit" 
 
 - type: email
   icon: "fas fa-envelope"
