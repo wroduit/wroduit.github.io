@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Dashboard de Saúde — Peso & IMC"
+title: "Dashboard de Saúde — Peso & IMC 2"
 date: 2026-02-23
 categories: [saúde, dados]
 tags: [peso, imc, fitdays, dashboard]
